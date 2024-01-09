@@ -17,6 +17,13 @@ h2 {
     line-height: 25px;
 }
 
+a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #339966;
+    text-decoration: none;
+}
+
 table {
     border-collapse: collapse;
     border: 2px solid #262d3c;
