@@ -1,10 +1,33 @@
+header {
+    background-color: #339966;
+    width: auto;
+    margin: 0%;
+    padding: 10px 5%;
+}
+
+.header-home-nav {
+    color: #ddeeff;
+    font-size: 30px;
+}
+
+a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #339966;
+    text-decoration: none;
+}
+
 body {
     background-color: #ddeeff;
-    margin: 5% 10%;
+    margin: 0%;
     font-family: 'Times New Roman', serif;
     font-size: 20px;
     line-height: 20px;
     color: #262d3c;
+}
+
+.body-margin {
+    margin: 5% 10%;
 }
 
 h1 {
@@ -15,13 +38,6 @@ h1 {
 h2 {
     font-size: 30px;
     line-height: 25px;
-}
-
-a {
-    font-size: 16px;
-    font-weight: bold;
-    color: #339966;
-    text-decoration: none;
 }
 
 table {
@@ -35,4 +51,10 @@ table {
 
 .table-color{
     background-color: #6ab2bb;
+}
+
+.wip {
+    background-color: #262d3c;
+    color: #ddeeff;
+    width: 256px;
 }
