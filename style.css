@@ -54,7 +54,7 @@ table {
 }
 
 .example {
-    background-color: rgba(106, 178, 187, 0.5);
+    background-color: rgba(51, 153, 102, 0.5);
     margin: 10px 0px;
     padding: 0px 5px;
     font-size: 16px;
@@ -66,4 +66,5 @@ table {
     background-color: #262d3c;
     color: #ddeeff;
     width: 256px;
+    font-weight: 500;
 }
