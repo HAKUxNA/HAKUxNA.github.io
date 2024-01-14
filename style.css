@@ -17,6 +17,12 @@ a {
     text-decoration: none;
 }
 
+.toc {
+    font-size: 20px;
+    font-weight: normal;
+    color: #262d3c;
+}
+
 body {
     background-color: #ddeeff;
     margin: 0%;
