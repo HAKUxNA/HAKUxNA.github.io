@@ -1,39 +1,48 @@
+$light_shades: #ddeeff;
+$light_accent: #6ab2bb;
+$main_color: #339966;
+$dark_accent: #7e8b7b;
+$dark_shades: #262d3c;
+
 header {
-    background-color: #339966;
+    background-color: $main_color;
     width: auto;
     margin: 0%;
     padding: 10px 5%;
 }
 
 .header-home-nav {
-    color: #ddeeff;
+    color: $light_shades;
     font-size: 30px;
 }
 
 a {
     font-size: 16px;
     font-weight: bold;
-    color: #339966;
+    color: $main_color;
     text-decoration: none;
-}
-
-.toc {
-    font-size: 20px;
-    font-weight: normal;
-    color: #262d3c;
+    .toc {
+        font-size: 20px;
+        font-weight: normal;
+        color: $dark_shades;
+    }
 }
 
 body {
-    background-color: #ddeeff;
+    background-color: $light_shades;
     margin: 0%;
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 20px;
     line-height: 20px;
-    color: #262d3c;
+    color: $dark_shades;
 }
 
 .body-margin {
     margin: 50px 10%;
+}
+
+.center {
+    text-align: center;
 }
 
 h1 {
@@ -51,10 +60,9 @@ h1 {
         content: "";
         flex-grow: 1;
         height: 1px;
-        background-color: #262d3c;
+        background-color: $dark_shades;
     }
 }
-
 
 h2 {
     font-family: 'Shippori Antique B1', sans-serif;
@@ -70,15 +78,15 @@ h3 {
 
 table {
     border-collapse: collapse;
-    border: 2px solid #262d3c;
+    border: 2px solid $dark_shades;
 }
 
 .table-upperleft {
-    background-color: #262d3c;
+    background-color: $dark_shades;
 }
 
 .table-color {
-    background-color: #6ab2bb;
+    background-color: $light_accent;
 }
 
 .example {
@@ -91,8 +99,8 @@ table {
 }
 
 .wip {
-    background-color: #262d3c;
-    color: #ddeeff;
+    background-color: $dark_shades;
+    color: $light_shades;
     width: 256px;
     font-weight: 500;
 }

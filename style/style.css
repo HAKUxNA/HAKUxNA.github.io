@@ -1,98 +1,100 @@
 header {
-    background-color: #339966;
-    width: auto;
-    margin: 0%;
-    padding: 10px 5%;
+  background-color: #339966;
+  width: auto;
+  margin: 0%;
+  padding: 10px 5%;
 }
 
 .header-home-nav {
-    color: #ddeeff;
-    font-size: 30px;
+  color: #ddeeff;
+  font-size: 30px;
 }
 
 a {
-    font-size: 16px;
-    font-weight: bold;
-    color: #339966;
-    text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #339966;
+  text-decoration: none;
 }
-
-.toc {
-    font-size: 20px;
-    font-weight: normal;
-    color: #262d3c;
+a .toc {
+  font-size: 20px;
+  font-weight: normal;
+  color: #262d3c;
 }
 
 body {
-    background-color: #ddeeff;
-    margin: 0%;
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: 20px;
-    line-height: 20px;
-    color: #262d3c;
+  background-color: #ddeeff;
+  margin: 0%;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  color: #262d3c;
 }
 
 .body-margin {
-    margin: 50px 10%;
+  margin: 50px 10%;
+}
+
+.center {
+  text-align: center;
 }
 
 h1 {
-    font-family: 'Shippori Antique B1', sans-serif;
-    font-size: 50px;
-    line-height: 50px;
+  font-family: "Shippori Antique B1", sans-serif;
+  font-size: 50px;
+  line-height: 50px;
 }
 
 .h1-line {
-    display: flex;
-    align-items: center;
-    margin: 0;
-    padding-right: 10px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding-right: 10px;
 }
-
 .h1-line::after {
-        content: "";
-        flex-grow: 1;
-        height: 1px;
-        background-color: #262d3c;
+  content: "";
+  flex-grow: 1;
+  height: 1px;
+  background-color: #262d3c;
 }
 
 h2 {
-    font-family: 'Shippori Antique B1', sans-serif;
-    font-size: 30px;
-    line-height: 25px;
+  font-family: "Shippori Antique B1", sans-serif;
+  font-size: 30px;
+  line-height: 25px;
 }
 
 h3 {
-    font-family: 'Shippori Antique B1', sans-serif;
-    font-size: 25px;
-    line-height: 25px;
+  font-family: "Shippori Antique B1", sans-serif;
+  font-size: 25px;
+  line-height: 25px;
 }
 
 table {
-    border-collapse: collapse;
-    border: 2px solid #262d3c;
+  border-collapse: collapse;
+  border: 2px solid #262d3c;
 }
 
 .table-upperleft {
-    background-color: #262d3c;
+  background-color: #262d3c;
 }
 
 .table-color {
-    background-color: #6ab2bb;
+  background-color: #6ab2bb;
 }
 
 .example {
-    background-color: rgba(51, 153, 102, 0.5);
-    margin: 10px 0px;
-    padding: 0px 5px;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 150%;
+  background-color: rgba(51, 153, 102, 0.5);
+  margin: 10px 0px;
+  padding: 0px 5px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
 }
 
 .wip {
-    background-color: #262d3c;
-    color: #ddeeff;
-    width: 256px;
-    font-weight: 500;
-}
+  background-color: #262d3c;
+  color: #ddeeff;
+  width: 256px;
+  font-weight: 500;
+}/*# sourceMappingURL=style.css.map */
