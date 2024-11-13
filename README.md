@@ -1,6 +1,6 @@
-# HAKUxNA.github.io
+# hakuxna.github.io
 
-こちらは、私はくメな（HAKUxNA）のWebページ（鋭意作成中）です。
+こちらは、私はくメな（hakuxna）のWebページ（鋭意作成中）です。
 
 通称「はくメなの脳みそ」とされています。
 
