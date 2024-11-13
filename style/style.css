@@ -13,10 +13,11 @@ header {
 a {
   font-size: 16px;
   font-weight: bold;
-  color: #339966;
+  color: #6ab2bb;
   text-decoration: none;
 }
-a .toc {
+
+.toc {
   font-size: 20px;
   font-weight: normal;
   color: #262d3c;
@@ -31,8 +32,10 @@ body {
   color: #262d3c;
 }
 
-.body-margin {
-  margin: 50px 10%;
+.main {
+  margin: 10px 10%;
+  padding: 25px 50px;
+  background-color: #fff;
 }
 
 .center {
@@ -40,6 +43,7 @@ body {
 }
 
 h1 {
+  color: #339966;
   font-family: "Shippori Antique B1", sans-serif;
   font-size: 50px;
   line-height: 50px;
